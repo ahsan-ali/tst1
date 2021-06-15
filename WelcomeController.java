@@ -18,7 +18,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class WelcomeController {
 
 	private static final String welcomemsg = "Welcome Mr. %s!";
-
+	//Contribution //Test
+	//Demo 1-12-2021
     @GetMapping("/welcome/user")
     @ResponseBody
     public Welcome welcomeUser(@RequestParam(name="name",required = false) String name) {
